@@ -1,0 +1,2 @@
+options.fovEffectScale=FOV Effects
+options.fovEffectScale.tooltip=Controls how much the field of view can change with gameplay effects.
