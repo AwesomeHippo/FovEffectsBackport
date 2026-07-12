@@ -1,0 +1,16 @@
+[
+	{
+		  "modid": "foveffectsbackport",
+		  "name": "FOV Effects Backport",
+		  "description": "A 1.12.2 backport of the FOV Effects slider",
+		  "version": "1.0.0",
+		  "mcversion": "${mcversion}",
+		  "url": "",
+		  "updateUrl": "",
+		  "authorList": ["AwesomeHippo"],
+		  "credits": "",
+		  "logoFile": "",
+		  "screenshots": [],
+		  "dependencies": []
+	}
+]
