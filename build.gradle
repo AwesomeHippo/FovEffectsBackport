@@ -29,7 +29,7 @@ compileJava {
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
-version = "1.0.0"
+version = "1.0.1"
 group = "com.awesomehippo.foveffectsbackport"
 archivesBaseName = "fov-effects-backport-1.7.10"
 

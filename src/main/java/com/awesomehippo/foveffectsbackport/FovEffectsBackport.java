@@ -9,7 +9,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.common.MinecraftForge;
 
-@Mod(modid = FovEffectsBackport.MOD_ID, name = "FOV Effects Backport", version = "1.0.0", acceptedMinecraftVersions = "[1.7.10]")
+@Mod(modid = FovEffectsBackport.MOD_ID, name = "FOV Effects Backport", version = "1.0.1", acceptedMinecraftVersions = "[1.7.10]")
 public class FovEffectsBackport {
     public static final String MOD_ID = "foveffectsbackport";
 

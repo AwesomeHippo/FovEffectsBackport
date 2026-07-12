@@ -8,3 +8,7 @@
 <span>
 This branch is for <strong>Forge 1.7.10</strong>. Check other branches for the other versions/loaders.
 </span>
+
+## Contributors
+
+- Special thanks to **Omgise** for zh_CN translation.
