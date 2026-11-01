@@ -46,7 +46,7 @@ public final class AngelicaSettingsIntegration {
     private static boolean isSodiumOptionsScreen(GuiScreen screen) {
         Class<?> type = screen.getClass();
         while (type != null && type != GuiScreen.class) {
-            if ("me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI".equals(type.getName())) {
+            if ("me.jellysquid.mods.sodium.client.gui.SodiumOptionsGUI".equals(type.getName()) || "me.flashyreese.mods.reeses_sodium_options.client.gui.ReeseSodiumVideoOptionsScreen".equals(type.getName())) {
                 return true;
             }
             type = type.getSuperclass();

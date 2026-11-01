@@ -25,6 +25,9 @@ public class VideoSettingsHandler {
         }
 
         GuiVideoSettings screen = (GuiVideoSettings) event.gui;
+        if (!(screen.optionsRowList instanceof GuiOptionsRowList)) {
+            return;
+        }
         lastPercent = Config.getSliderPercent();
 
         slider = new GuiSlider(
