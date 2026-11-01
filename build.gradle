@@ -13,7 +13,7 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '1.0.1'
+version = '1.0.2'
 group = 'com.awesomehippo.foveffectsbackport'
 archivesBaseName = 'fov-effects-backport-1.12.2'
 
@@ -85,6 +85,7 @@ dependencies {
 jar {
     manifest {
         attributes([
+            "FMLAT": "accesstransformer.cfg",
             "Specification-Title": "fov-effects-backport-1.12.2",
             "Specification-Vendor": "AwesomeHippo",
             "Specification-Version": "1",
